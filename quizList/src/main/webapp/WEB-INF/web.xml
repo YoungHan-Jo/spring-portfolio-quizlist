@@ -32,6 +32,8 @@
 	<servlet-mapping>
 		<servlet-name>appServlet</servlet-name>
 		<url-pattern>/</url-pattern>
+		<url-pattern>.js</url-pattern>
+		<url-pattern>.css</url-pattern>
 	</servlet-mapping>
 	
 	<!-- 스프링 한글설정 필터추가 -->
